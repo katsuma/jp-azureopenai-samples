@@ -14,6 +14,13 @@ import traceback
 # Company
 from company_research.company import CompanyResearch
 
+# For local development
+# from os.path import join, dirname
+# from dotenv import load_dotenv
+
+# dotenv_path = join(dirname(__file__), '.env')
+# load_dotenv(dotenv_path)
+
 # Davinci, ChatGPT
 AZURE_OPENAI_SERVICE = os.environ.get("AZURE_OPENAI_SERVICE")
 AZURE_OPENAI_API_VERSION = os.environ.get("AZURE_OPENAI_API_VERSION")
@@ -29,11 +36,10 @@ REDIS_KEY  = os.environ.get("REDIS_KEY")
 REDIS_INDEX_NAME = os.environ.get("REDIS_INDEX_NAME")
 REDIS_CATEGORY_COMMON = os.environ.get("REDIS_CATEGORY_COMMON")
 REDIS_CATEGORY_TOPICS = os.environ.get("REDIS_CATEGORY_TOPICS")
-
 redis_client = StrictRedis(host=REDIS_NAME, port=10000, password=REDIS_KEY, ssl=True, ssl_cert_reqs=None, decode_responses=True)
 
-# Use the current user identity to authenticate with Azure OpenAI, Cognitive Search and Blob Storage (no secrets needed, 
-# just use 'az login' locally, and managed identity when deployed on Azure). If you need to use keys, use separate AzureKeyCredential instances with the 
+# Use the current user identity to authenticate with Azure OpenAI, Cognitive Search and Blob Storage (no secrets needed,
+# just use 'az login' locally, and managed identity when deployed on Azure). If you need to use keys, use separate AzureKeyCredential instances with the
 # keys for each service
 # If you encounter a blocking error during a DefaultAzureCredntial resolution, you can exclude the problematic credential by using a parameter (ex. exclude_shared_token_cache_credential=True)
 azure_credential = DefaultAzureCredential()
@@ -54,11 +60,11 @@ def get_redis_index_name(category):
     return str(category) + "_" + REDIS_INDEX_NAME
 
 company_research = CompanyResearch(
-    AZURE_OPENAI_EMBEDDING_DEPLOYMENT, 
-    AZURE_OPENAI_CHAT_DEPLOYMENT, 
-    AZURE_OPENAI_COMPLETION_DEPLOYMENT, 
-    redis_client, 
-    get_redis_index_name(REDIS_CATEGORY_COMMON), 
+    AZURE_OPENAI_EMBEDDING_DEPLOYMENT,
+    AZURE_OPENAI_CHAT_DEPLOYMENT,
+    AZURE_OPENAI_COMPLETION_DEPLOYMENT,
+    redis_client,
+    get_redis_index_name(REDIS_CATEGORY_COMMON),
     get_redis_index_name(REDIS_CATEGORY_TOPICS))
 
 app = Flask(__name__)
@@ -187,6 +193,6 @@ def ensure_openai_token():
     if openai_token or openai_token.expires_on < int(time.time()) - 60:
         openai_token = azure_credential.get_token("https://cognitiveservices.azure.com/.default")
         openai.api_key = openai_token.token
-    
+
 if __name__ == "__main__":
     app.run()
