@@ -80,13 +80,13 @@ def register_cache_index(category):
                     "DISTANCE_METRIC": "COSINE",
                     "INITIAL_CAP": 3155
                 })
-    
+
     index_name = get_redis_index_name(category)
 
     print("Redis: drop index", index_name)
     print()
     try:
-        redis_conn.ft(index_name).dropindex() 
+        redis_conn.ft(index_name).dropindex()
     except:
         print(f"Redis: index {index_name} does not exist.")
 
@@ -194,7 +194,7 @@ def query_all_cache(category):
     query = Query(base_query)\
         .return_fields("name", "data", "tokens")\
         .dialect(2)
-    
+
     index_name = get_redis_index_name(category)
     redis_ret = redis_conn.ft(index_name).search(query)
 
@@ -232,9 +232,9 @@ def main():
     print(df)
     print()
 
-    df = query_cache(REDIS_CATEGORY_COMMON, "コントソ", n=1)
-    print(df)
-    print()
+    # df = query_cache(REDIS_CATEGORY_COMMON, "コントソ", n=1)
+    # print(df)
+    # print()
 
     # Topics
     clear_cache(REDIS_CATEGORY_TOPICS)
@@ -247,9 +247,9 @@ def main():
     print(df)
     print()
 
-    df = query_cache(REDIS_CATEGORY_TOPICS, "コントソ 経営者", n=3)
-    print(df)
-    print()
+    # df = query_cache(REDIS_CATEGORY_TOPICS, "コントソ 経営者", n=3)
+    # print(df)
+    # print()
 
 if __name__ == '__main__':
     main()

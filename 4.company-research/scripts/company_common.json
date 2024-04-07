@@ -1,36 +1,363 @@
 [
     {
-        "name": "コントソ電機 (Contoso Inc.)", 
+        "name": "コントソ電機 (Contoso Inc.)",
         "securities_code": "9999",
-        "locale": "ja-jp", 
+        "locale": "ja-jp",
         "industry": "manufacturing",
-        "representative": "山田将司", 
+        "representative": "山田将司",
         "establishment_date": "1956/4",
-        "capital": 180365, 
-        "major_shareholders": "山田武", 
-        "business_description": "日本の東京都新宿区に本社を置く総合電機メーカー。東証プライム市場およびニューヨーク証券取引所（NYSE）に上場して、日経インデックス400の構成銘柄の一つ。ハードウェア分野では世界首位の液晶パネルや各種オーディオ・ビジュアル機器を提供。さらに、同社はハード・ソフト・サービスを横断するネットワークサービスにも重点を置いています。", 
-        "number_of_employees": 86700, 
-        "location": "東京都港区新宿区20-10-5", 
+        "capital": 180365,
+        "major_shareholders": "山田武",
+        "business_description": "日本の東京都新宿区に本社を置く総合電機メーカー。東証プライム市場およびニューヨーク証券取引所（NYSE）に上場して、日経インデックス400の構成銘柄の一つ。ハードウェア分野では世界首位の液晶パネルや各種オーディオ・ビジュアル機器を提供。さらに、同社はハード・ソフト・サービスを横断するネットワークサービスにも重点を置いています。",
+        "number_of_employees": 86700,
+        "location": "東京都港区新宿区20-10-5",
         "revenue": [
-            {"2020": 259885}, 
-            {"2021": 998661}, 
+            {"2020": 259885},
+            {"2021": 998661},
             {"2022": 921513}
-        ], 
+        ],
         "operating_profit": [
-            {"2020": 454590}, 
-            {"2021": 698661}, 
+            {"2020": 454590},
+            {"2021": 698661},
             {"2022": 202339}
         ],
         "total_assets": [
-            {"2020": 4967000}, 
-            {"2021": 7507843}, 
+            {"2020": 4967000},
+            {"2021": 7507843},
             {"2022": 8480967}
         ],
         "equity_ratio":[
-            {"2020": 14.9}, 
-            {"2021": 20.3}, 
+            {"2020": 14.9},
+            {"2021": 20.3},
             {"2022": 21.4}
         ],
         "listed_market" : "東証プライム"
+    },
+    {
+        "name": "イオン 株式会社",
+        "securities_code": "8267",
+        "locale": "ja-jp",
+        "industry": "GMS",
+        "representative": "吉田昭夫",
+        "establishment_date": "1956/4",
+        "capital": 180365,
+        "major_shareholders": "日本マスタートラスト信託銀行株式会社（信託口）,株式会社日本カストディ銀行（信託口）,株式会社みずほ銀行",
+        "business_description": "GMS、スーパーなどを展開する総合小売企業。多数の買収を実施、系列スーパーの統合も進む。ショッピングセンターなどの不動産開発事業や金融事業の利益貢献度が高い。",
+        "number_of_employees": 160404,
+        "location": "千葉県千葉市美浜区中瀬1-5-1",
+        "revenue": [
+            {"2020": 8604207},
+            {"2021": 8603910},
+            {"2022": 8715957},
+            {"2023": 9116823}
+        ],
+        "operating_profit": [
+            {"2020": 215530},
+            {"2021": 150586},
+            {"2022": 174312},
+            {"2023": 209783}
+        ],
+        "total_assets": [
+            {"2020": 11062685},
+            {"2021": 11481268},
+            {"2022": 11633083},
+            {"2023": 12341523}
+        ],
+        "equity_ratio":[
+            {"2020": 9.64},
+            {"2021": 8.46},
+            {"2022": 8.24},
+            {"2023": 8.05}
+        ],
+        "listed_market" : "東証プライム"
+    },
+    {
+        "name": "株式会社 セブン&アイ・ホールディングス",
+        "securities_code": "3382",
+        "locale": "ja-jp",
+        "industry": "コンビニエンスストア、GMS",
+        "representative": "井阪隆一",
+        "establishment_date": "2005/09/01",
+        "capital": 500000,
+        "major_shareholders": "日本マスタートラスト信託銀行株式会社（信託口）,伊藤興業株式会社,株式会社日本カストディ銀行（信託口）,SMBC日興証券株式会社,日本生命保険相互会社,伊藤雅俊",
+        "business_description": "総合流通グループ。コンビニエンスストア、総合スーパー、レストラン、銀行、ITサービスなど幅広い業態を展開。総合小売業を目指すとしていた方針を転換し、同社の核であるコンビニエンスストア事業へ集中。",
+        "number_of_employees": 84154,
+        "location": "日本東京都千代田区二番町8番地8",
+        "revenue": [
+            {"2019": 6791215},
+            {"2020": 6644359},
+            {"2021": 5766718},
+            {"2022": 8749752},
+            {"2023": 11811303}
+        ],
+        "operating_profit": [
+            {"2019": 411596},
+            {"2020": 424266},
+            {"2021": 366329},
+            {"2022": 387653},
+            {"2023": 506521}
+        ],
+        "total_assets": [
+            {"2019": 5795302},
+            {"2020": 5996887},
+            {"2021": 6946832},
+            {"2022": 8739279},
+            {"2023": 10550956}
+        ],
+        "equity_ratio": [
+            {"2019": 43.56},
+            {"2020": 43.39},
+            {"2021": 38.42},
+            {"2022": 34.11},
+            {"2023": 32.93}
+        ],
+        "listed_market": "東証プライム"
+    },
+    {
+        "name": "株式会社 パン・パシフィック・インターナショナルホールディングス",
+        "securities_code": "7532",
+        "locale": "ja-jp",
+        "industry": "ディスカウントストア、GMS",
+        "representative": "吉田直樹",
+        "establishment_date": "1980/09/05",
+        "capital": 233510,
+        "major_shareholders": "CREDIT SUISSE AG HONG KONG TRUST A/C CLIENTS FOR DQ WINDMOLEN B.V.,日本マスタートラスト信託銀行株式会社（信託口）,株式会社安隆商事,株式会社ファミリーマート,株式会社日本カストディ銀行（信託口）,JP MORGAN CHASE BANK 385632,GIC PRIVATE LIMITED-C,公益財団法人安田奨学財団,STATE STREET BANK WEST CLIENT - TREATY 505234,DEUTSCHE BANK TRUST COMPANY AMERICAS",        "business_description": "総合ディスカウントストア「ドン・キホーテ」を首都圏中心に全国展開。総合スーパー事業では「アピタ」、「ピアゴ」も。居抜き物件も活用し地域密着の店舗開発。PBにも注力。",
+        "number_of_employees": 17107,
+        "location": "日本東京都目黒区青葉台2-19-10",
+        "revenue": [
+            {"2019": 1328874},
+            {"2020": 1681947},
+            {"2021": 1708635},
+            {"2022": 1831280},
+            {"2023": 1936783}
+        ],
+        "operating_profit": [
+            {"2019": 63110},
+            {"2020": 75997},
+            {"2021": 81306},
+            {"2022": 88688},
+            {"2023": 105259}
+        ],
+        "total_assets": [
+            {"2019": 1278567},
+            {"2020": 1298948},
+            {"2021": 1370252},
+            {"2022": 1383678},
+            {"2023": 1481058}
+        ],
+        "equity_ratio": [
+            {"2019": 25.83},
+            {"2020": 28.78},
+            {"2021": 30.57},
+            {"2022": 28.37},
+            {"2023": 30.66}
+        ],
+        "listed_market": "東証プライム"
+    },
+    {
+        "name": "株式会社 フジ",
+        "securities_code": "8278",
+        "locale": "ja-jp",
+        "industry": "GMS、食品スーパー",
+        "representative": "尾﨑英雄",
+        "establishment_date": "1967/09/12",
+        "capital": 220000,
+        "major_shareholders": "イオン,アスティ,フジ共栄会,フジ親栄会,伊予銀行,広島銀行,愛媛銀行,日本カストディ銀行（信託口4）,日本マスタートラスト信託銀行（信託口）,もみじ銀行",
+        "business_description": "中国・四国地方を基盤とするショッピングセンターとスーパーマーケットのリージョナルチェーン。2022年、マックスバリュ西日本と経営統合。",
+        "number_of_employees": 8638,
+        "location": "日本愛媛県松山市宮西一丁目2番1号",
+        "revenue": [
+            {"2019": 8518215},
+            {"2020": 8604207},
+            {"2021": 8603910},
+            {"2022": 8715957},
+            {"2023": 9116823}
+        ],
+        "operating_profit": [
+            {"2019": 212256},
+            {"2020": 215530},
+            {"2021": 150586},
+            {"2022": 174312},
+            {"2023": 209783}
+        ],
+        "total_assets": [
+            {"2019": 10049680},
+            {"2020": 11062685},
+            {"2021": 11481268},
+            {"2022": 11633083},
+            {"2023": 12341523}
+        ],
+        "equity_ratio": [
+            {"2019": 10.90},
+            {"2020": 9.64},
+            {"2021": 8.46},
+            {"2022": 8.24},
+            {"2023": 8.05}
+        ],
+        "listed_market": "東証プライム"
+    },
+    {
+        "name": "Walmart Inc",
+        "securities_code": "WMT",
+        "locale": "en-us",
+        "industry": "Retail",
+        "representative": "C. Douglas McMillon (Chief Executive Officer, President), Gregory B. Penner (Chairman)",
+        "establishment_date": "1969年",
+        "capital": "805000",
+        "major_shareholders": "ウォルトン・エンタープライズ",
+        "business_description": "Walmart serves as the preeminent retailer in the United States, with its strategy predicated on superior operating efficiency and offering the lowest priced goods to consumers to drive robust store traffic and product turnover. It is listed on the New York Stock Exchange and is one of the constituents of the Nikkei 400 Index.",
+        "number_of_employees": 2100000,
+        "location": "702 S.W. 8th Street Bentonville Arkansas United States",
+        "revenue": [
+            {"2020": 523964},
+            {"2021": 559151},
+            {"2022": 572754},
+            {"2023": 611289}
+        ],
+        "operating_profit": [
+            {"2020": 20568},
+            {"2021": 22548},
+            {"2022": 25942},
+            {"2023": 20428}
+        ],
+        "total_assets": [
+            {"2020": 236495},
+            {"2021": 252496},
+            {"2022": 244860},
+            {"2023": 243197}
+        ],
+        "equity_ratio": [
+            {"2020": 31.57},
+            {"2021": 32.05},
+            {"2022": 34.00},
+            {"2023": 31.54}
+        ],
+        "listed_market": "ニューヨーク証券取引所"
+    },
+    {
+        "name": "Costco Wholesale Corp",
+        "securities_code": "COST",
+        "locale": "en-us",
+        "industry": "Retail",
+        "representative": "Hamilton Evans James (Chairman), Roland M. Vachris (Chief Executive Officer, President)",
+        "establishment_date": "1983年",
+        "capital": 3476000,
+        "major_shareholders": "The Vanguard Group, Inc., BlackRock Fund Advisors, SSgA Funds Management, Inc., Capital Research and Management Company, T. Rowe Price Associates, Inc., Fidelity Management & Research Company, State Street Global Advisors, Inc., Massachusetts Financial Services Company, JPMorgan Chase & Co., Northern Trust Corporation",
+        "business_description": "Costco operates a membership-based, no-frills retail model, predicated on offering a select product assortment in bulk quantities at bargain prices. It is listed on the Nasdaq Stock Market.",
+        "number_of_employees": 316000,
+        "location": "999 Lake Drive Issaquah Washington United States",
+        "revenue": [
+            {"2019": 152703},
+            {"2020": 166761},
+            {"2021": 195929},
+            {"2022": 226954},
+            {"2023": 242290}
+        ],
+        "operating_profit": [
+            {"2019": 4737},
+            {"2020": 5435},
+            {"2021": 6708},
+            {"2022": 7793},
+            {"2023": 8114}
+        ],
+        "total_assets": [
+            {"2019": 45400},
+            {"2020": 55556},
+            {"2021": 59268},
+            {"2022": 64166},
+            {"2023": 68994}
+        ],
+        "equity_ratio": [
+            {"2019": 33.57},
+            {"2020": 32.91},
+            {"2021": 29.63},
+            {"2022": 32.17},
+            {"2023": 36.32}
+        ],
+        "listed_market": "ナスダック"
+    },
+    {
+        "name": "Carrefour",
+        "securities_code": "CA",
+        "locale": "en-us",
+        "industry": "Retail",
+        "representative": "Alexandre Bompard (Chief Executive Officer, Chairman)",
+        "establishment_date": "1959年",
+        "capital": 73000,
+        "major_shareholders": "Alexandre Bompard (個人)、Moët Hennessy - Louis Vuitton SE、Bernard Arnault (個人)、EPF Investment Group、Bpifrance",
+        "business_description": "Carrefour is a multiformat retailer with operations in more than 30 countries, with tens of thousands of shops globally, over 1,000 drive-thru locations, and about 340,000 employees. It is listed on the Paris Stock Exchange.",
+        "number_of_employees": 305314,
+        "location": "フランス93, Avenue de Paris Massy Cedex Paris France",
+        "revenue": [
+            {"2019": 74142},
+            {"2020": 72150},
+            {"2021": 71761},
+            {"2022": 83088},
+            {"2023": 84910}
+        ],
+        "operating_profit": [
+            {"2019": 2080},
+            {"2020": 2155},
+            {"2021": 2170},
+            {"2022": 2343},
+            {"2023": 2235}
+        ],
+        "total_assets": [
+            {"2019": 51464},
+            {"2020": 47588},
+            {"2021": 47668},
+            {"2022": 56558},
+            {"2023": 56171}
+        ],
+        "equity_ratio": [
+            {"2019": 19.31},
+            {"2020": 21.23},
+            {"2021": 21.50},
+            {"2022": 19.70},
+            {"2023": 20.54}
+        ],
+        "listed_market": "パリ証券取引所"
+    },
+    {
+        "name": "Tesco PLC",
+        "securities_code": "TSCO",
+        "locale": "en-gb",
+        "industry": "Retail",
+        "representative": "Gerard Martin Murphy (Chairman), Ken Murphy (Chief Executive Officer)",
+        "establishment_date": "1947年",
+        "capital": 45000,
+        "major_shareholders": "Lincluden LLP (資産運用会社)、Schroders plc (投資運用会社)、BlackRock Fund Advisors (資産運用会社)、Legal & General Investment Management (資産運用会社)、Capital Group Companies, Inc",
+        "business_description": "Tesco is one of the largest food retailers in the world, operating thousands of stores in the United Kingdom, Ireland, and Europe. It is listed on the London Stock Exchange.",
+        "number_of_employees": 332815,
+        "location": "イギリスKestrel Way Tesco House, Shire Park Welwyn Garden United Kingdom",
+        "revenue": [
+            {"2019": 63911},
+            {"2020": 58091},
+            {"2021": 57887},
+            {"2022": 61344},
+            {"2023": 65762}
+        ],
+        "operating_profit": [
+            {"2019": 2639},
+            {"2020": 2283},
+            {"2021": 1933},
+            {"2022": 2573},
+            {"2023": 1525}
+        ],
+        "total_assets": [
+            {"2019": 56898},
+            {"2020": 53070},
+            {"2021": 45512},
+            {"2022": 49351},
+            {"2023": 46132}
+        ],
+        "equity_ratio": [
+            {"2019": 23.65},
+            {"2020": 25.09},
+            {"2021": 26.54},
+            {"2022": 31.73},
+            {"2023": 26.53}
+        ],
+        "listed_market": "ロンドン証券取引所"
     }
 ]
